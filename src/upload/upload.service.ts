@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { s3 } from 'src/aws/aws.config.ts';
+import { s3 } from 'aws/aws.config.ts';
 import { v4 as uuid } from 'uuid';
 import { S3 } from 'aws-sdk';
 
