@@ -10,7 +10,6 @@ export class UploadService {
 
   constructor(private configService: ConfigService) {
     this.bucket = this.configService.get<string>('AWS_BUCKET_NAME');
-    console.log('Using S3 Bucket:', this.bucket);
   }
 
   public async upload(
