@@ -44,12 +44,7 @@ export class UploadController {
         if (allowedTypes.includes(file.mimetype)) {
           callback(null, true);
         } else {
-          callback(
-            new BadRequestException(
-              'Invalid file type. Only images and PDFs are allowed.',
-            ),
-            false,
-          );
+          callback(new BadRequestException('Unsupported file format.'), false);
         }
       },
     }),
