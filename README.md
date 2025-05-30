@@ -59,7 +59,7 @@ A secure and efficient file management API built with **NestJS** that integrates
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/aws-s3-nestjs.git
+git clone https://github.com/RaghuVijay/fileManagement.git
 
 # Install dependencies
 npm install
